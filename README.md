@@ -8,7 +8,7 @@ metadata, and phrase quality.
 ## Status
 
 Version `0.1.1` is a research-preview build generated from the
-frozen Paper-1 pipeline. It does not change the published/test results.
+frozen B.-R. Ryu & S. Lee (2026) pipeline. It does not change the published/test results.
 
 ## Installation
 
