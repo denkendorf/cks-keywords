@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cks-keywords"
+version = "0.1.1"
+description = "Composite Keyword Scoring for leakage-controlled keyword reconstruction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Byong-Rae Ryu", email = "ryu@cnu.ac.kr"},
+  {name = "Sunghwa Lee"},
+]
+keywords = ["keywords", "keyphrase extraction", "metadata", "bibliometrics", "CKS"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+nlp = ["spacy>=3.8,<4"]
+test = []
+all = ["spacy>=3.8,<4", "jupyter>=1"]
+
+[project.scripts]
+cks-keywords = "cks_keywords.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cks_keywords = [
+  "py.typed",
+  "resources/*/*.json",
+  "resources/*/*.csv",
+  "resources/*/*.csv.gz",
+  "resources/*/*.txt",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

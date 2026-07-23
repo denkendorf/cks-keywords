@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use cks-keywords, please cite the software and the associated paper."
+title: "cks-keywords: Composite Keyword Scoring"
+type: software
+version: "0.1.1"
+date-released: "2026-07-19"
+authors:
+  - family-names: "Ryu"
+    given-names: "Byong-Rae"
+  - family-names: "Lee"
+    given-names: "Sunghwa"
+repository-code: "REPLACE_WITH_PUBLIC_REPOSITORY_URL"
+license: MIT
