@@ -1,0 +1,26 @@
+{
+  "fit_label": "all_305_development_records",
+  "fit_record_count": 305,
+  "fit_record_ids_sha256": "181745e9210e52fb6409b910de744e7b64751ec153af491ffe658743edae8be8",
+  "fit_gold_document_keyword_pairs": 1657,
+  "domain_lexicon_size": 940,
+  "gold_length_counts": {
+    "1": 613,
+    "2": 715,
+    "3": 237,
+    "4": 69,
+    "5": 23
+  },
+  "mapping_sha256": "a1d3a3d017bd33772526adf809340362c204e52bbba47389a3a895bea6ab3eae",
+  "split_fingerprint": "18beb657d7bc96c990fc3924208d2a3ed45c7e715b0e42240c847666611bfbf9",
+  "candidate_rule_version": "candidate_admissibility_v3_scope_corrected",
+  "development_preferred_configuration_id": "W031_S50",
+  "development_preferred_weights": {
+    "tfidf": 0.35883017780335136,
+    "df": 0.13955067164160423,
+    "dispersion": 0.12325077960956203,
+    "domain_focus": 0.21521853519466447,
+    "phrase_quality": 0.16314983575081804
+  },
+  "development_preferred_minimum_score": 0.5
+}

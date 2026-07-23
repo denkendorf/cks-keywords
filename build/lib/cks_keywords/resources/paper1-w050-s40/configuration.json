@@ -1,0 +1,61 @@
+{
+  "configuration_frozen": true,
+  "configuration_id": "W050_S40",
+  "development_diagnostic": {
+    "development_oof_canonical_f1_top10": 0.1807777179751939,
+    "development_oof_canonical_f1_top5": 0.182986048559819,
+    "development_selection_rank": 8
+  },
+  "frozen_provenance": {
+    "candidate_rule_version": "candidate_admissibility_v3_scope_corrected",
+    "canonical_mapping_sha256": "a1d3a3d017bd33772526adf809340362c204e52bbba47389a3a895bea6ab3eae",
+    "split_fingerprint": "18beb657d7bc96c990fc3924208d2a3ed45c7e715b0e42240c847666611bfbf9",
+    "stage4_manifest_sha256": "0dbe8f02383e3487657c222bf1c2da1a7ff16aadf49562f87b534131ed7e2fcf",
+    "stage7_manifest_sha256": "45d177653dacd0c7e8e6f548add1a79280934da6b28dd03e7018f4f7ddbf0427",
+    "stage8_feature_file_sha256": "656152f27779c855048334f87d32a3b05b4a974b0058d749d3ee1e3b7d0483d7",
+    "stage8_manifest_sha256": "e2e70e0b3e3ee86dbbce841ce23271db30d4fa96aa53b903fd86c9aafbe5237a",
+    "stage8_shortlist_sha256": "03853e23e506a5149c2f3d927e95159e06bb9a3515e505264ae8b5de42b57281",
+    "validation_gold_extract_sha256": "60fb859cbec3651b846f5f114e1049955494ee4ca2601211852c8852b3b46cce"
+  },
+  "minimum_cks_score": 0.4,
+  "next_action": "Open the frozen test set once in Stage 10; do not retune this configuration.",
+  "selection_protocol": {
+    "primary_objective": "mean document-level canonical F1@10",
+    "selection_population": "validation only",
+    "shortlist_generated_on": "development inner cross-validation",
+    "shortlist_size": 11,
+    "test_keyword_labels_used": false,
+    "tie_breakers": [
+      "canonical F1@5 descending",
+      "canonical any-match@10 descending",
+      "canonical recall@10 descending",
+      "development selection rank ascending",
+      "distance from prespecified baseline ascending",
+      "minimum score ascending",
+      "configuration ID ascending"
+    ],
+    "validation_records": 102
+  },
+  "stage": "09_validation_configuration_selection_and_freeze_scope_corrected",
+  "stage_version": "scope_corrected_validation_selection_v1",
+  "validation_selection_result": {
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20260719,
+    "bootstrap_selection_frequency": 0.6078,
+    "canonical_any_match_top10": 0.696078431372549,
+    "canonical_f1_top10": 0.17574988920372275,
+    "canonical_f1_top5": 0.1731086451674687,
+    "canonical_precision_top10": 0.1507236227824463,
+    "canonical_recall_top10": 0.23033380018674138,
+    "exact_f1_top10": 0.12996416225336277,
+    "validation_selection_rank": 1
+  },
+  "weight_config_id": "W050",
+  "weights": {
+    "df": 0.156674402897233,
+    "dispersion": 0.1663501431593705,
+    "domain_focus": 0.2639026823061904,
+    "phrase_quality": 0.1092802626064815,
+    "tfidf": 0.3037925090307244
+  }
+}

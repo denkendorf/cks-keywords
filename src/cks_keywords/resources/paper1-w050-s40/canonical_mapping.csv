@@ -1,0 +1,28 @@
+﻿variant_key,canonical_key,canonical_label,proposal_type,review_decision,reviewer_note,reviewer_initials,review_date,chain_resolution_applied
+asl,american sign language,american sign language,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+bsl,british sign language,british sign language,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+cnv,contingent negative variation,contingent negative variation,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+cross linguistic,crosslinguistic,crosslinguistic,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+cross modal correspondence,crossmodal correspondence,crossmodal correspondence,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+dgs,german sign language,german sign language,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+dti,diffusion tensor imaging,diffusion tensor imaging,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+eeg,electroencephalogram,electroencephalogram,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+erps,event relate potential,event related potentials,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+finger spell,fingerspell,fingerspell,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+fmri,functional magnetic resonance imaging,functional magnetic resonance imaging,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+hand shape,handshape,handshape,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+hmm,hide markov model,hidden markov model,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+ifg,inferior frontal gyrus,inferior frontal gyrus,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+language co activation,language coactivation,language coactivation,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+lifg,left inferior frontal gyrus,left inferior frontal gyrus,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+lsf,french sign language,french sign language,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+morpho phonology,morphophonology,morphophonology,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+ngt,sign language of the netherlands,sign language of the netherlands,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+non manual,nonmanual,nonmanual,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+non manual feature,nonmanual feature,nonmanual feature,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+non manual marker,nonmanual marker,nonmanual marker,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+non native,nonnative,nonnative,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+pseudo word,pseudoword,pseudoword,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+supple tion,suppletion,suppletion,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False
+tms,transcranial magnetic stimulation,transcranial magnetic stimulation,acronym_or_initialism_expansion,KEEP,the standard abbreviation,BRYU,2026-07-18 00:00:00,False
+visuo spatial processing,visuospatial processing,visuospatial processing,spacing_or_compounding,KEEP,standard non-hyphen string,BRYU,2026-07-18 00:00:00,False

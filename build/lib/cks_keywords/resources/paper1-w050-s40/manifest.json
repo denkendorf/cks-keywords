@@ -1,0 +1,29 @@
+{
+  "candidate_rule_version": "candidate_admissibility_v3_scope_corrected",
+  "canonical_mapping_sha256": "a1d3a3d017bd33772526adf809340362c204e52bbba47389a3a895bea6ab3eae",
+  "configuration_id": "W050_S40",
+  "configuration_sha256": "0f59ca5856ad132a6516e63e3d61650878ef1ffb8a446ae11defb679642dbb3f",
+  "development_fit_records": 305,
+  "exact_reproduction_boundary": "Frozen scoring and deterministic ranking are exactly reproducible from the Stage-08 feature frame. Raw-text regeneration additionally depends on spaCy en_core_web_sm and the frozen candidate rule.",
+  "gold_length_counts": {
+    "1": 613,
+    "2": 715,
+    "3": 237,
+    "4": 69,
+    "5": 23
+  },
+  "minimum_cks_score": 0.4,
+  "package_version": "0.1.1",
+  "profile_name": "paper1-w050-s40",
+  "stage10_canonical_f1_top10": 0.1844647598972858,
+  "stage10_test_records": 102,
+  "term_statistics_rows": 73892,
+  "weight_config_id": "W050",
+  "weights": {
+    "df": 0.156674402897233,
+    "dispersion": 0.1663501431593705,
+    "domain_focus": 0.2639026823061904,
+    "phrase_quality": 0.1092802626064815,
+    "tfidf": 0.3037925090307244
+  }
+}
